@@ -1,12 +1,7 @@
 
-Please see the [documentation](../docs/documentation.md) for further details.
-
 <p align="left">
 <img width="200" height="200"  src="images/leafSun.png">
 </p>
-  
-<img src="leafSun.png" width="200" />
-
   
 # _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
