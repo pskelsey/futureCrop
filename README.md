@@ -2,7 +2,7 @@
 <img width = "200" height = "200" src="https://github.com/pskelsey/futureCrops/blob/master/leafSun.png">
 </p>
    
-(/leafSun.png){width = 200 height = 200}
+![MY_COOL_IMAGE](../leafSun.png){width = 200 height = 200}
    
 # _futureCrops model_
 
