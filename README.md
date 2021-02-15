@@ -1,6 +1,6 @@
 
 <p align="left">
-<img src="images/leafSun.png" length="200" width="200">
+<img src="images/leafSun.png" length="100" width="100">
 </p>
   
 [pskelsey]/[futureCrop]images/leafSun.png
