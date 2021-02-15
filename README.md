@@ -24,7 +24,7 @@ Once your model is defined in the Model Tab, you can move on to the Projections 
 <p>
 </p>
 <p align="left">
-  <img src="images/classificationTab2.PNG">
+  <img src="images/regressionTab2.PNG">
 </p>
 
 ## Motivation
