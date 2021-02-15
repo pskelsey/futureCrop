@@ -2,7 +2,7 @@
 <img width = "200" height = "200" src="https://github.com/pskelsey/futureCrops/blob/master/leafSun.png">
 </p>
    
-![Alt text](https://github.com/pskelsey/futureCrops/blob/master/leafSun.png "Optional title attribute")   
+![Alt text](/leafSun.png "Optional title attribute")   
    
 # _futureCrops model_
 
