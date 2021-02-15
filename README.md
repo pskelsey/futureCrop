@@ -16,7 +16,7 @@ Data for the proportion of a crop infected with a disease together with observed
 
 ![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
 
-Once your model is defined in the Model Tab, you can move on to the Projections Tab. in this example, barley has been selected as the crop distribution and the results panel shows boxplots of projected values for the the 2020s - 2060s.
+Once your model is defined in the Model Tab, you can move on to the Projections Tab. in this example, barley has been selected as the crop distribution and the results panel shows boxplots of projected values for the the 2030s - 2060s.
 
 ![regressionTab2](https://user-images.githubusercontent.com/32124230/108000964-183f6800-6fe3-11eb-9286-72b11232524e.PNG)
 
