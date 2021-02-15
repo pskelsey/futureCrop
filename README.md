@@ -14,6 +14,7 @@
 <img width = "200" height = "200" src="../docs/regressionTab1.PNG">
 </p>
 
+![leafSun](https://user-images.githubusercontent.com/32124230/107983977-cf75b800-6fbe-11eb-9944-0720c1dc85bb.png)
    
 # _futureCrops model_
 
