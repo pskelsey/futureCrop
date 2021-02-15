@@ -3,6 +3,8 @@
 <img src="images/icon.png">
 </p>
 
+![](images/icon.png)
+
 # _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
