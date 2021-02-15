@@ -1,8 +1,6 @@
 <p align="left">
-<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/leafSun.PNG">
+<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/leafSun.png">
 </p>
-
-<img src="images/leafSun.PNG" width="85%"> 
   
 # _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
