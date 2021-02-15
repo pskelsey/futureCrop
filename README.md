@@ -1,20 +1,4 @@
-<p align="left">
-<img width = "200" height = "200" src="https:\\github.com\pskelsey\futureCrops\blob\master\leafSun.png" raw=true>
-</p>
-   
-![Logo](https://github.com/pskelsey/futureCrops/blob/master/leafSun.png)
 
-![Logo](\leafSun.png)
-
-![Logo](leafSun.png)
-   
-![MY_COOL_IMAGE](..\leafSun.png){width = 200 height = 200}
-
-<p align="left">
-<img width = "200" height = "200" src="../docs/regressionTab1.PNG">
-</p>
-
-![leafSun](https://user-images.githubusercontent.com/32124230/107983977-cf75b800-6fbe-11eb-9944-0720c1dc85bb.png)
    
 # _futureCrops model_
 
