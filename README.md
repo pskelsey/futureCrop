@@ -1,5 +1,5 @@
 <p align="left">
-<(docs/leafSun.png)>
+<(docs/leafSun.jpg)>
 </p>
    
 # _4C model_: Crop Connectivity under Climate Change
