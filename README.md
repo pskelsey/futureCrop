@@ -1,5 +1,5 @@
 <div align="center">
-<img src="/images/leafSun.png" width="150px"</img> 
+<img src="/images/leafSun.PNG" width="150px"</img> 
 </div>
 
 <img src="images/leafSun.png">
