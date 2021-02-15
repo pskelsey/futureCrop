@@ -1,5 +1,5 @@
 <p align="left">
-<img width = "200" height = "200" src="https://github.com/pskelsey/futureCrops/blob/master/leafSun.png">
+<img width = "200" height = "200" src="https://github.com/pskelsey/futureCrops/blob/master/leafSun.png" raw=true>
 </p>
    
 ![MY_COOL_IMAGE](../leafSun.png){width = 200 height = 200}
