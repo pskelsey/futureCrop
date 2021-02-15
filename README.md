@@ -1,14 +1,14 @@
 <p align="left">
-<img width = "200" height = "200" src="https://github.com/pskelsey/futureCrops/blob/master/leafSun.png" raw=true>
+<img width = "200" height = "200" src="https:\\github.com\pskelsey\futureCrops\blob\master\leafSun.png" raw=true>
 </p>
    
 ![Logo](https://github.com/pskelsey/futureCrops/blob/master/leafSun.png)
 
-![Logo](/leafSun.png)
+![Logo](\leafSun.png)
 
 ![Logo](leafSun.png)
    
-![MY_COOL_IMAGE](../leafSun.png){width = 200 height = 200}
+![MY_COOL_IMAGE](..\leafSun.png){width = 200 height = 200}
 
 <p align="left">
 <img width = "200" height = "200" src="../docs/regressionTab1.PNG">
