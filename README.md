@@ -1,5 +1,5 @@
 
-![](images/leafSun.png)
+Please see the [documentation](docs/documentation.md) for further details.
 
 <p align="left">
 <img width="200" height="200"  src="images/leafSun.png">
