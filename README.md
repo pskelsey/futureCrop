@@ -1,4 +1,7 @@
+<img src="images/leafSun.png">
+
 ![](images/leafSun.png)
+
 
 <p align="left">
 <img width = "200" height = "200" src="https:\\github.com\pskelsey\futureCrops\blob\master\leafSun.png" raw=true>
