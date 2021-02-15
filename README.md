@@ -1,5 +1,5 @@
 <p align="left">
-<img src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/docs/leafSun.PNG" />
+<img src="docs/leafSun.png" />
 </p>
    
 # _futureCrops model_
