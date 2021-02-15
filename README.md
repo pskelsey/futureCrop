@@ -1,5 +1,5 @@
 <p align="left">
-<img width="212" height="166" src = "blob/master/docs/leafSun.png">
+<img width="212" height="166" src = "docs/leafSun.png">
 </p>
    
 # _4C model_: Crop Connectivity under Climate Change
