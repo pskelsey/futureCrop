@@ -1,5 +1,5 @@
 <p align="left">
-<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/images/leafSun.PNG">
+<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/leafSun.PNG">
 </p>
 
 <img src="images/leafSun.PNG" width="85%"> 
