@@ -2,7 +2,7 @@
 <img width="212" height="212"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/docs/leafSun.png">
 </p>
    
-# _4C model_: Crop Connectivity under Climate Change
+# _futureCrops model_
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
