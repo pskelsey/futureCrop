@@ -16,16 +16,15 @@ Data for the proportion of a crop infected with a disease together with observed
 
 ![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
 
-Once your model is defined in the Model Tab, you can move on to the Projections Tab. Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and potato crops are selected from the list of available crop species / land-use types. That selection is narrowed further to locations in the English Midlands (map shown). In order to adjust projected values from the model according to the connectivity of the crops (e.g. for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The five boxplots show the distribution of projected model values in the selected potato crops for May through to September. In this example the results are presented as the percentage increase in risk compared to the current (baseline) climate, whereas you can opt to display the absolute values from the model. 
+Once your model is defined in the Model Tab, you can move on to the Projections Tab. in this example, barley has been selected as the crop distribution and the results panel shows boxplots of projected values for the the 2020s - 2060s.
 
-![regressionTab2](https://user-images.githubusercontent.com/32124230/108000059-ef1dd800-6fe0-11eb-9f37-8b0c9e8e7b36.PNG)
+![regressionTab2](https://user-images.githubusercontent.com/32124230/108000964-183f6800-6fe3-11eb-9286-72b11232524e.PNG)
 
 ## Motivation
-This app was developed as a tool to help non-modellers perform state-of-the-art climate change risk assessments. At your fingertips are real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME), and [UKCP09](http://ukclimateprojections.metoffice.gov.uk/21678) spatially coherent probabilistic climate change data. Building a model and defining your future scenarios is just a matter of hitting a few switches and twiddling a few knobs. I've used this framework to produce [peer-reviewed journal articles](#references), and you can too. 
+This app was developed as a tool to help non-modellers access cutting-edge machine learning algorithms and perform state-of-the-art climate change risk assessments. At your fingertips are real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en) and [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [UKCP18](http://https://www.metoffice.gov.uk/research/approach/collaboration/ukcp/index) spatially and temporally coherent probabilistic climate change data (emissions scenario RCP8.5). 
 
 ### Installation and loading
-NOTE: Due to the many controls and features of the app, the GUI is a fixed size (12") and not 'responsive,' i.e. it will not scale to fit the screen of your device. This means it may not be suitable for notebooks with smaller screens, and is best suited for desktop PCs. 
-To make sure you get the latest release, click on the 'release' button near the top of the page:
+NOTE: Due to the many controls and features of the app, the GUI is a fixed size and not 'responsive,' i.e. it will not scale to fit the screen of your device. However, the GUI is small enough that it should be suitable for notebooks etc. with smaller screens. To make sure you get the latest release, click on the 'release' button near the top of the page:
 
 <p align="left">
   <img src="https://github.com/pskelsey/4C/blob/gh-pages/download.PNG">
