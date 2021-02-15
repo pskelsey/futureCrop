@@ -1,6 +1,6 @@
 
 <p align="left">
-<img src="images/leafSun.png">
+<img src="images/leafSun.png" length="200" width="200">
 </p>
   
 # _futureCrops model_
