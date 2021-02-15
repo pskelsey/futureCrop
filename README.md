@@ -1,10 +1,7 @@
 
 <p align="left">
-<img src="images/leafSun.png" length="100" width="100">
+<img src="images/leafSun.png">
 </p>
-  
-[pskelsey]/[futureCrop]images/leafSun.png
-  
 # _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
