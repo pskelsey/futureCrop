@@ -21,7 +21,7 @@ Once your model is defined in the Model Tab, you can move on to the Projections 
 ![regressionTab2](https://user-images.githubusercontent.com/32124230/108000964-183f6800-6fe3-11eb-9286-72b11232524e.PNG)
 
 ## Motivation
-This app was developed as a tool to help non-modellers access cutting-edge machine learning algorithms and perform state-of-the-art climate change risk assessments. At your fingertips are real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en) and [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [UKCP18](http://https://www.metoffice.gov.uk/research/approach/collaboration/ukcp/index) spatially and temporally coherent probabilistic climate change data (emissions scenario RCP8.5). 
+This app was developed as a tool to help non-modellers access cutting-edge machine learning algorithms and perform state-of-the-art climate change risk assessments. At your fingertips are real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en) and [JACS](https://www.gov.scot/collections/june-scottish-agricultural-census/), and [UKCP18](http://https://www.metoffice.gov.uk/research/approach/collaboration/ukcp/index) spatially and temporally coherent probabilistic climate change data (emissions scenario RCP8.5). 
 
 ### Installation and loading
 NOTE: Due to the many controls and features of the app, the GUI is a fixed size and not 'responsive,' i.e. it will not scale to fit the screen of your device. However, the GUI is small enough that it should be suitable for notebooks etc. with smaller screens. To make sure you get the latest release, click on the 'release' button near the top of the page:
