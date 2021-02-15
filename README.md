@@ -1,9 +1,11 @@
 
 <p align="left">
-<img src="images/icon.png">
+<img src="images/sunLeaf.png">
 </p>
 
-![](images/icon.png) # _futureCrops model_
+![](images/icon.png) 
+
+# _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
