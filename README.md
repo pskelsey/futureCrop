@@ -1,3 +1,7 @@
+<div align="center">
+<img src="/images/leafSun.png" width="150px"</img> 
+</div>
+
 <img src="images/leafSun.png">
 
 ![](/images/leafSun.png)
