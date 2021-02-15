@@ -1,6 +1,6 @@
 
 <p align="left">
-<img src="images/sunLeaf.png">
+<img src="images/leafSun.png">
 </p>
 
 ![](images/icon.png) 
