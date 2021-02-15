@@ -14,15 +14,11 @@ A desktop app for performing climate change risk assessments in real crop locati
 ## Example
 Data for the proportion of a crop infected with a disease together with observed weather variables is uploaded. A Random Forest regression model is trained, tuned, and tested with a nested k-fold cross validation procedure that utilizes Bayesian optimization for tuning of hyperparameters. This is all achieved with a few button clicks. The results can be saved to your PC.
 
-<p align="left">
-  <img src="images/regressionTab1.PNG">
-</p>
+![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
+
 Once your model is defined in the Model Tab, you can move on to the Projections Tab. Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and potato crops are selected from the list of available crop species / land-use types. That selection is narrowed further to locations in the English Midlands (map shown). In order to adjust projected values from the model according to the connectivity of the crops (e.g. for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The five boxplots show the distribution of projected model values in the selected potato crops for May through to September. In this example the results are presented as the percentage increase in risk compared to the current (baseline) climate, whereas you can opt to display the absolute values from the model. 
-<p>
-</p>
-<p align="left">
-  <img src="images/regressionTab2.PNG">
-</p>
+
+![regressionTab2](https://user-images.githubusercontent.com/32124230/108000059-ef1dd800-6fe0-11eb-9f37-8b0c9e8e7b36.PNG)
 
 ## Motivation
 This app was developed as a tool to help non-modellers perform state-of-the-art climate change risk assessments. At your fingertips are real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME), and [UKCP09](http://ukclimateprojections.metoffice.gov.uk/21678) spatially coherent probabilistic climate change data. Building a model and defining your future scenarios is just a matter of hitting a few switches and twiddling a few knobs. I've used this framework to produce [peer-reviewed journal articles](#references), and you can too. 
