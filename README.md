@@ -12,7 +12,7 @@ Please see the [documentation](../docs/documentation.md) for further details.
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
-A desktop app for performing climate change risk assessments in real crop locations in Great Britain.
+A desktop app for performing climate change risk assessments in real crop locations in Great Britain:
 * Upload your own data.
 * Train, tune, and test a Random Forest regression model / classifier in a few easy clicks.
 * Choose a raster distribution of crop species to apply your model in.
