@@ -5,6 +5,8 @@
 ![Logo](https://github.com/pskelsey/futureCrops/blob/master/leafSun.png)
 
 ![Logo](/leafSun.png)
+
+![Logo](leafSun.png)
    
 ![MY_COOL_IMAGE](../leafSun.png){width = 200 height = 200}
    
