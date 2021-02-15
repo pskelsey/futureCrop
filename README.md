@@ -14,9 +14,9 @@
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain.
-* Upload your own data to build a risk model
-* Train, tune & test a Random Forest regression model / classifier in a few easy clicks.
-* Choose a raster distribution of crop species / land use locations to apply your model in.
+* Upload your own data.
+* Train, tune, and test a Random Forest regression model / classifier in a few easy clicks.
+* Choose a raster distribution of crop species to apply your model in.
 * Select a future time-period and season.
 * Hit the run button, visualise your results, and save them to create your own graphics. 
 
