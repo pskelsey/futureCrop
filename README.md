@@ -11,7 +11,7 @@
 ![MY_COOL_IMAGE](../leafSun.png){width = 200 height = 200}
 
 <p align="left">
-<img width = "200" height = "200" src=../docs/regressionTab1.PNG>
+<img width = "200" height = "200" src="../docs/regressionTab1.PNG">
 </p>
 
    
