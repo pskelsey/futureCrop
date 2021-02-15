@@ -1,4 +1,4 @@
-<img src="images/leafSun.png">
+<img src="images/leafSun.jpg">
 
 # _futureCrops model_
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
