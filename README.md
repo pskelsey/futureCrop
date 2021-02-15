@@ -13,8 +13,9 @@
 # _futureCrops model_
 
 ## Basic overview
-A desktop app for performing climate change risk assessments in real crop locations in Great Britain. 
-* Train / tune / test a Random Forest regression model / classifier from your own data in a few easy clicks.
+A desktop app for performing climate change risk assessments in real crop locations in Great Britain.
+* Upload your own data to build a risk model
+* Train, tune & test a Random Forest regression model / classifier in a few easy clicks.
 * Choose a raster distribution of crop species / land use locations to apply your model in, or generate your own landscape.
 * Select a climate variable, a future time-period and month, and pick your greenhouse gas emissions scenario.
 * Define the level of connectivity among grid cell locations, if desired.
