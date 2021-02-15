@@ -2,7 +2,7 @@
 ![](images/leafSun.png)
 
 <p align="left">
-<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/leafSun.png">
+<img width="200" height="200"  src="images/leafSun.png">
 </p>
   
 <img src="leafSun.png" width="200" />
