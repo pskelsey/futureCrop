@@ -15,7 +15,7 @@ A desktop app for performing climate change risk assessments in real crop locati
 * Hit the run button, visualise your results, and save them to create your own graphics. 
 
 ## Example
-A risk function is selected from the drop-down list and fit to user-defined data for the proportion of plants infected as a function of temperature. If you have no data you can still select a model from the drop-down list and manually adjust the parameter values to suit, or define your own function in the box provided. 
+Data for the proportion of a crop infected with a disease together with observed weather variables is uploaded. A Random Forest regression model is trained, tuned, and tested with a nested k-fold cross validation procedure that utilizes Bayesian optimization for tuning of hyperparameters. This is all achieved with a few button clicks. The results can be saved to your PC.
 
 <p align="left">
   <img src="images/regressionTab1.PNG">
