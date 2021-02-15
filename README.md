@@ -1,13 +1,3 @@
-<img src="leafSun.jpg">
-
-<img src="https://www.flickr.com/photos/192151729@N02/50947849861/in/album-72157718306042258/">
-
-<img src="https://raw.githubusercontent.com/pskelsey/futureCrop/images/.github/images/leafSun.png">
-
-![](https://raw.githubusercontent.com/pskelsey/futureCrop/images/.github/images/leafSun.png)
-
-![Alt Text](/images/leafSun.png)
-
 ![leafSun](https://user-images.githubusercontent.com/32124230/107999911-9f3f1100-6fe0-11eb-9755-f48dbb82cf65.png)
 
 # _futureCrops model_
