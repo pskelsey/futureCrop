@@ -1,7 +1,7 @@
 ![leafSun](https://user-images.githubusercontent.com/32124230/107999911-9f3f1100-6fe0-11eb-9755-f48dbb82cf65.png)
 
 # _futureCrop model_
-Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
+Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=futureCrop), James Hutton Institute, Dundee
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain:
