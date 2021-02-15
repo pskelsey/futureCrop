@@ -1,6 +1,11 @@
+<p align="left">
+<img width="200" height="200"  src="https://raw.githubusercontent.com/pskelsey/futureCrops/master/images/leafSun.PNG">
+</p>
 
-   
+<img src="images/leafSun.PNG" width="85%"> 
+  
 # _futureCrops model_
+Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain.
@@ -14,7 +19,7 @@ A desktop app for performing climate change risk assessments in real crop locati
 A risk function is selected from the drop-down list and fit to user-defined data for the proportion of plants infected as a function of temperature. If you have no data you can still select a model from the drop-down list and manually adjust the parameter values to suit, or define your own function in the box provided. 
 
 <p align="left">
-  <img src="https://github.com/pskelsey/4C/blob/gh-pages/modelsTabLarge.png">
+  <img src="https://github.com/pskelsey/futureCrops/blob/master/images/regressionTab1.PNG">
 </p>
 Once your model is defined in the Model Tab, you can move on to the Projections Tab. Temperature is selected as the variable of interest, for a low emissions scenario in the 2040s, and potato crops are selected from the list of available crop species / land-use types. That selection is narrowed further to locations in the English Midlands (map shown). In order to adjust projected values from the model according to the connectivity of the crops (e.g. for pest dispersal), dispersal is switched on and set to a 2D Gaussian dispersal function with an average dispersal distance of 10km. The five boxplots show the distribution of projected model values in the selected potato crops for May through to September. In this example the results are presented as the percentage increase in risk compared to the current (baseline) climate, whereas you can opt to display the absolute values from the model. 
 <p>
