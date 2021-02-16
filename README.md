@@ -6,13 +6,13 @@ Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=futur
 ## Basic overview
 A desktop app for performing climate change risk assessments in real crop locations in Great Britain:
 * Upload your own data.
-* Train, tune, and test a Random Forest regression model / classifier in a few easy clicks.
+* Train, tune, and test regression- or classification-tree ensembles in a few easy clicks, and save your results.
 * Choose a raster distribution of crop species to apply your model in.
 * Select a future time-period and season.
-* Hit the run button, visualise your results, and save them to create your own graphics. 
+* Hit the run button, visualise the projected values, and save them to create your own graphics. 
 
 ## Example
-Data for the proportion of a crop infected with a disease together with observed weather variables is uploaded. A Random Forest regression model is trained, tuned, and tested with a nested k-fold cross validation procedure that utilizes Bayesian optimization for tuning of hyperparameters. This is all achieved with a few button clicks. The results can be saved to your PC.
+The example regression dataset included with the app was used to train, tune, and test regression tree ensembles using a nested k-fold cross validation procedure with Bayesian optimization for tuning of hyperparameters. The most accurate predictive algorithm was an ensemble of boosted regression trees. The results can be saved to your PC.
 
 ![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
 
