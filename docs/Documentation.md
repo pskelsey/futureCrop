@@ -39,20 +39,18 @@ Polygon data defining the spatial coverage of crops and land-use types were deri
 # Basic operation
 *Tabs*: The app has two 'tabs' - 'Model' and 'Projections.' To switch from one tab to the other just click on their name.  
 *Switches*: Drag the circluar switch to the left or right, or just click in the empty space.  
-*Lists*: Click on the desired option in the list.
-*Buttons*: Click them.
-*Numeric fields*: Click in the white box to change the numerical value. Then hit enter or click outside the box.
-*State buttons*: Click them to toggle between two states - dark grey indicates 'on' and light grey is 'off'.
+*Lists*: Click on the desired option in the list.  
+*Buttons*: Click them.  
+*Numeric fields*: Click in the white box to change the numerical value. Then hit enter or click outside the box.  
+*State buttons*: Click them to toggle between two states - dark grey indicates 'on' and light grey is 'off'.  
 *Text fields*: Click in the white box to change the text. Then click outside the box.  
-*Knobs*: Drag the control around the circle to your selection, or click on your selection.
-Note: some controles may be unavailable (greyed out) until certain operations have been performed, for example, you cannot save your model results until you have fit a model to your data.
+*Knobs*: Drag the control around the circle to your selection, or click on your selection.  
+Note: some controles may be unavailable (greyed out) until certain operations have been performed, for example, you cannot save your model results until you have fit a model to your data.  
 
 # Model Tab
-The risk models you create here must be a function of one weather variable only, y = f(x); e.g. crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
+The risk models you create here can be a function of one or more of the following weather variables from the climate change projections: temperature (deg. C), relative humidity (%), wind speed (m s<sup>-1</sup>), net surface shortwave radiation flux (W m<sup>-2</sup>), precipitation (mm d<sup>-1</sup>), total cloud (%). Your 'response variable' (or dependent variable) can be any weather-dependent process involving / affecting / occurring in crops, e.g., crop diseases, pests, crop growth etc.   
 
-<p align="left">
-  <img src="https://github.com/pskelsey/4C-model/blob/gh-pages/modelsTabLarge.png">
-</p>
+![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
 
 ### Create your own model
 Select 'Create a model' using the switch.
