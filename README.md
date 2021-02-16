@@ -12,7 +12,7 @@ A desktop app for performing climate change risk assessments in real crop locati
 * Save your model fitting and projection results to create your own statistics and graphics. 
 
 ## Example
-The example regression dataset included with the app is uploaded. It contains a response variable and values for 6 different weather variables. Regression tree ensembles are trained, tuned and tested using a nested k-fold cross validation procedure with Bayesian optimization for tuning of hyperparameters. The most accurate predictive algorithm is an ensemble of boosted regression trees.
+The example regression dataset included with the app is uploaded. It contains a response variable and values for 6 different weather variables. Regression tree ensembles are trained, tuned and tested using a nested cross validation procedure with Bayesian optimization for tuning of hyperparameters. The most accurate predictive algorithm is an ensemble of boosted regression trees.
 
 ![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
 
