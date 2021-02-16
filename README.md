@@ -12,9 +12,9 @@ A desktop app for performing climate change risk assessments in real crop locati
 * Save your model fitting and projection results to create your own statistics and graphics. 
 
 ## Example
-The example regression dataset included with the app is uploaded. It contains a response variable and values for 6 different weather variables. Regression tree ensembles are trained, tuned and tested using a nested cross validation procedure with Bayesian optimization for tuning of hyperparameters. Parallel computing is selected to speed up execution on multi-core devices. The most accurate predictive algorithm is an ensemble of boosted regression trees.
+The example regression dataset included with the app is uploaded. It contains a response variable and values for 6 different weather variables. Regression tree ensembles are trained, tuned and tested using a nested cross validation procedure with Bayesian optimization for tuning of hyperparameters. Parallel computing is selected to speed up execution on multi-core devices. The most accurate predictive algorithm is a Random Forest of 109 regression trees.
 
-![regressionTab1](https://user-images.githubusercontent.com/32124230/108000033-e3caac80-6fe0-11eb-9ee5-8357da6abfc0.PNG)
+![regressionTab1](https://user-images.githubusercontent.com/32124230/108053135-ef4fbf00-7044-11eb-931b-a221c6c8d640.PNG)
 
 The fitted algorithm is applied across real barley locations using climate change projection data for summer in 2030-2060. The ensemble of results for each decade reveal that the predicted response variable is expected to increase markedly over time.
 
