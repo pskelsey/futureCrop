@@ -1,7 +1,4 @@
-<p align="left">
-  <img width="212" height="166"  src="https://github.com/pskelsey/4C/blob/gh-pages/4CLogo.png">
-</p>
-
+![leafSun](https://user-images.githubusercontent.com/32124230/107999911-9f3f1100-6fe0-11eb-9755-f48dbb82cf65.png)
 
 # DOCUMENTATION
 
@@ -31,25 +28,24 @@
   
 
 # Background
-The app uses gridded crop distribution / land use data and gridded climate change data, and allows you to build a weather-dependent model to apply in selected grid cells under various climate change scenarios. A unique feature of the app is the ability to define spatial relationships (e.g. risk of pest or pathogen dispersal) among grid cells via various dispersal options. These spatial relationships can be used to modify projected values. 
+The app uses gridded crop distribution / land use data and gridded climate change data, and allows you to build a weather-dependent model to apply in selected grid cells under various climate change scenarios. 
 
 ### Climate data
-The app uses raw monthly 25 km gridded (52 x 39 cells) climate data from the UK Met Office Climate Projections database ([UKCP09](http://ukclimateprojections.metoffice.gov.uk/)) 11-member ensemble of spatially coherent climate projections (SCPs). The SCPs provide the best estimates for modelling and summarising the potential effects of future climates on spatial processes in GB as they are fully coherent across different locations, allowing the user to consider climate change at more than one location in a way that captures the relationship between the different locations,and to average projections across user defined land areas. They include both internal modelling variability (using perturbed physics ensembles) and external modelling variability (from the use of different General Circulation Models, or GCMs), as well as information on climate variability. The SCPs provide 11 equally plausible snapshots of climate change; i.e. a range of 11 future values are provided for each climate variable in each grid cell. UKCP09 1961-1991 baseline data are also included for comparison, i.e. for computing a change relative to the current climate.
+The app uses raw monthly 12 km gridded (65 x 112 cells) climate data from the UK Met Office Climate Projections database ([UKCP18](https://www.metoffice.gov.uk/research/approach/collaboration/ukcp/index)) 12-member ensemble of Regional projections. These have full spatial and temporal coherence, which is important for applications requiring assessment of multiple drivers of changing hazards, i.e., for building models that are a function of multiple climate variables. These data provide 12 equally plausible snapshots of climate change for emissions scenario RCP8.5; i.e. a range of 12 future values are provided for each climate variable in each grid cell. UKCP18 1981-2000 are also included as baseline data for comparison, i.e., for computing a % change relative to the current climate.
 
 ### Crop data
-Polygon data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en), [JACS](http://www.gov.scot/Topics/Statistics/Browse/Agriculture-Fisheries/PubFinalResultsJuneCensus), and [CROME](https://data.gov.uk/data/search?q=CROME). These data cover Scotland and England only. The vector data were rasterised to 25 km grids matching the resolution of the climate change data. Information on the location and area of each crop / land-use type per grid cell is available for use in the app.
+Polygon data defining the spatial coverage of crops and land-use types were derived from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en) and [JACS](https://www.gov.scot/collections/june-scottish-agricultural-census/). These data cover Scotland only. The vector data were rasterised to 12 km grids matching the resolution of the climate change data, and contain information on presence/absence of crop species.
 
 # Basic operation
 *Tabs*: The app has two 'tabs' - 'Model' and 'Projections.' To switch from one tab to the other just click on their name.  
 *Switches*: Drag the circluar switch to the left or right, or just click in the empty space.  
-*Drop down lists*: Click on the downward pointing arrow to reveal the list.  
-*Numeric fields*: Click in the white box to change the numerical value. Then hit enter or click outside the box.  
-*Text fields*: Click in the white box to change the text. Then click outside the box. If you can't, you're not allowed.  
-*Buttons*: Click them.  
-*Knobs*: Drag the control to around your selection, or click on your selection.  
-*List boxes*: Use the scroll bar to the right to reveal more choices. Click on a value to select it - it will be highlighted.  
-*Radio buttons*: These are little circles to the left of lists. Click one to select, and it will be highlighted with a black dot.  
-*Toggle switches*: These flip up and down. 
+*Lists*: Click on the desired option in the list.
+*Buttons*: Click them.
+*Numeric fields*: Click in the white box to change the numerical value. Then hit enter or click outside the box.
+*State buttons*: Click them to toggle between two states - dark grey indicates 'on' and light grey is 'off'.
+*Text fields*: Click in the white box to change the text. Then click outside the box.  
+*Knobs*: Drag the control around the circle to your selection, or click on your selection.
+Note: some controles may be unavailable (greyed out) until certain operations have been performed, for example, you cannot save your model results until you have fit a model to your data.
 
 # Model Tab
 The risk models you create here must be a function of one weather variable only, y = f(x); e.g. crop damage as a function of temperature, infection risk as a function of precipitation, etc. The ability to build models containing more than one weather variable will be included in a future release.  
