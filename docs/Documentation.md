@@ -74,13 +74,13 @@ Once the 'Save' button becomes available (after resampling and model finalizatio
 # Projections Tab
 In this tab the finalized model is used to perform climate change risk assessments according to the scanerios of your choice.
 
-## Climate and crop panel
+### Climate and crop panel
 Use the circular Knobs to select the future decade of interest, the season, the crop distribution (grid cells) to implement the model in, and the crop region. The crop region is used to refine the selected crop distribution to specific climatic regions of Scotland, as defined by the UK Met. Office ([UK Climate Districts Map](https://www.metoffice.gov.uk/research/climate/maps-and-data/about/districts-map)). The crop acronyms are: B = barley, BL = braodleaved tree, C = conifers, O = aots, OSR = oilseed rape, SP = seed potatoes, SF = soft fruit, WP = ware potatoes, and W = wheat. To visualise your selected crop distribution, choose 'crop' from the listbox and a map of Scotland showing the percentage of each grid cell occupied by that crop species will be automatically generated. Similarly, select a climate variable from the listbox to obtain a map of that variable for the decade and season of your choice. 
 
-## Results panel
+### Results panel
 Click the 'Plot' to produce a boxplot of projected values for your scenario. Each boxplot is a 'super-ensemble' of projected values (12 potential future climates x *n* selected grid cells). Boxes extend from the first to the third quartile, medians are marked in each box, and whiskers extend to 1.5 times the interquartile range. You can display multiple boxplots (i.e. multiple scenarios, such as a different decades / seasons / crops etc.) together in the Projections pane. These will be numbered sequentially. For regression tasks, boxplots show projected values relative to those for the 1981-2000 baseline climatology to show the proportional response; i.e. the percentage change in the response variable relative to baseline conditions. This is just for visualisation purposes and the absolute projected values will be stored for saving. For classification tasks, stacked bar charts are used to show the distribution of projected classes, i.e., the absolute number in each class. These are not taken relative to baseline conditions. Click the 'Clear' button to clear the plot pane. Note that this will also clear the stored projections results.
 
-## Saving projection results
+### Saving projection results
 Clicking the 'Save' button will open up a dialogue box to save the projection results that are plotted in the Projections pane to a location of your choice. The results file is an excel workbook with 2 worksheets: 'baseline' contains predictions from your model for UKCP18 modelled baseline conditions (1981-2000), and 'projections' contains the projected values. The column headers are numbered sequentially to match the boxplots in the Projections pane. Note that scenarios comprised of different crop selections will contain a different number of results. 
 
 
