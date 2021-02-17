@@ -15,9 +15,10 @@
   * [Parallel computing](#parallel-computing)
   * [Results table](#results-table)
   * [Final model version](#final-model-version)
+  * [Saving model results](#saving-model-results)
 * [Projections tab](#projections-tab)
-  * [Emissions panel](#emissions-panel)
-  * [Landscapes panel](#landscapes-panel)
+  * [Climate and crop panel](#climate-and-crop-panel)
+  * [Results panel](#results-panel)
     * [How to incorporate cell areas](#how-to-incorporate-cell-areas)
     * [Select a distribution of locations](#select-a-distribution-of-locations)
     * [Artificial landscape generation](#artificial-landscape-generation)
@@ -29,7 +30,6 @@
     * [Plotting projected values](#plotting-projected-values)
     * [Saving results](#saving-results)
   
-
 # Background
 The app provides a very simple front-end to cutting edge machine learning algorithms, and is bundled with gridded crop distribution and climate change data. With a few button clicks you can fit a weather-dependent regression- or classification-tree ensemble to your own data, apply your model across real crop locations, and explore possible future changes under various climate change scenarios. 
 
@@ -75,27 +75,14 @@ Training, tuning, and testing an algorithm can be computationally expensive, the
 The table provides results for each iteration of the selected sampling strategy. For 'none' and 'holdout' there will be one row and for sampling strategies prefixed by NCV there will be *k* rows of results in the table. These will appear one-by-one as the app cycles through each iteration of sampling. The columns are explained as follows. 'Fold' provides the number of the test fold (i.e., the iteration count). 'Method' provides the best estimated learner (ensemble aggregation algorithm) on the test fold. The next 5 or 6 columns provide the optimized hyperparameter values for regression and classification, respectively (note that column headings for hyperparameters change according to the modelling task selected). The final two columns provide a measure of predictive accuracy on the training fold and test fold. For regression this is the mean squared error of prediction and for classification it is the misclassification rate (proportion of cases misclassified). If 'none' is selected as the sampling strategy then the test accuracy will be NaN (not a number) as no test data were set aside. Although test accuracy is the primary metric of interest, predictive accuracy on training folds is provided for comparison. Performance is often slightly lower on test folds, but if there is a large discrepancy in training and test accuracy it indicates a poor ability of the algorithm to generalize to new, unseen data. For reporting purposes you can provide the individual results on each test fold (Test column) or the mean and SD across the test folds. If NaN appears for any hyperparameter value, this indicates that the best estimated learner does not use that hyperparameter. A description of the various ensemble aggregation algorithms (and their hyperparamters) that can be returned by ``fitrensemble`` and ``fitcensemble``is beyond the scope of this documentation, but the interested reader can consult the [MATLAB documentation](https://www.mathworks.com/help/index.html?s_tid=CRUX_topnav). 
 
 ### Final model version
-The purpose of  the basic idea is that cross-validation is used to assess the performance of a method for fitting a model, not of the model itself.
+The details of the finalized algorithm will automatically appear in the 'Final version' table after assessment of the model building process via resmapling is complete. If the sampling strategy selected was 'none', then default settings were used for ``fitrensemble`` / ``fitcensemble`` and the default learner has already been trained on all the available data. Otherwise, one more round of Bayesian optimization with 5-fold cross-validation is performed using to obtain the best learner and optimal hyperparameter settings, and the resultant optimized learner is retrained using all the data.
 
-outer loop of cross-validation for training and testing, and an inner loop of cross-validation for tuning and testing. The inner loop provides the optimal hyperparameter values, which are then used to retrain and test the performance of the algorithm in the outer loop.       perfom to Select 'Use the list' using the switch. Select a function from the 'Model list' dropdown list. The equation will be displayed in the 'Model description' pane. Adjust the value of the parameters (a, b, c, d) using the numeric fields. The 'lower' and 'upper' fields will be greyed out as these are used for fitting models to data. Click the 'Run' button to visualise your model.
-
-### Fit a model to your own data
-Select 'Fit model to data' using the switch. This will open up a file selection dialog box. Your datafile must be an ASCII delimited text file or CSV file with the data stored in columns. The first column should contain the independent- or x-variable (i.e. the weather variable) and the second column the dependent variable. Replicate values of the dependent variable should be stored in subsequent columns. If your file does not meet these requirements then a warning will occur and the app will default back to 'Create a model.' A data file ('testData.txt') has been provided in the 'Assets' list of the release (see download instructions in the README.md) to help you get up and running with the model fitting features. Your data will be plotted in the 'Data / Predictions' plot pane once it has loaded successfully, and the x-axis limits of the plot pane will adjust according to the lower and upper values in your data. 
-
-To fit a model, select one from the dropdown 'Model list.' The selected model will be displayed in the 'Model description' pane. The grid of 'Parameter' text fields in the top-right corner will adjust according to the model, with unnecessary fields greyed out. Default initial values for the parameters to be fitted are selected uniformly at random from the interval (0,1), or you can set these yourself using the 'initial' text field. Lower and upper bounds on the parameters to be fitted can be set using the 'lower' and 'upper' text fields. Click the 'Run' button to fit the model. The numerical fit results will be displayed in the 'Model description' pane and goodness of fit statistics in the 'GoF' pane. If the model fails to fit a warning will occur, with some suggestions to help improve the fit. The method of least squares (linear or nonlinear) is used when fitting data, or there is an option to fit a smoothing spline in the 'Model list'. Spline is a good option if your data is noisy or you are having trouble fitting other models, although this is considered a non-parametric fit and the display of numerical fit results will be limited. The value of the smoothing parameter for splines is fixed at 0.1. 
-
-### Plot a model
-Click the 'Run' button to display your user-defined or fitted model in the 'Data / Predictions' plot pane. Use the 'x-range' numeric field below the plot pane to visualise or extrapolate your model across a different range of values on the x-axis. The format required is min:step:max, e.g. to plot from 0 to 10 in steps of 0.1 you would enter 0:0.1:10. Then hit Return on your keyboard or click your mouse outside of the numeric field. Note that this is for visualisation purposes only and does not affect model fit.
-
-### Final model selection
-To use a model for projections you must select 'Use this model' with the switch in the bottom right corner of the tab, changing the lamp from red to green. You can now proceed to the Projections Tab.
+### Saving model results
+Once the 'Save' button becomes available (after resampling and model finalization), this can be used to open up a dialogue box to save modelling results to a location of your choice. The results file is an excel workbook with 4 worksheets: 'testCases' contains the variables used and predicted values for Y in each test fold, 'performance' contains the Train / tune / test results table, 'finalModel' contains the Final version table, and 'importance' contains estimates of predictor importance dervied from ``fitrensemble`` / ``fitcensemble``. These are numerical values between 0 and 1, with higher scores indicating variables that had a greater impact on making predictions.  
 
 # Projections Tab
-<p align="left">
-  <img src="https://github.com/pskelsey/4C-model/blob/gh-pages/projectionsTabLarge.png">
-</p>
 
-## Emissions panel
+## Climate and crop panel
 Select your climate variable, future time-period, and CO2 emissions scenario using the knobs. Select the month of the year or the season using the list box. For seasonal averages of the selected climate variable, Spr = spring (MAM), Sum = summmer (JJA), Aut = autumn (SON), and Win = winter (DJF). The climate change data are probabilistic, therefore a range of climate values will be provided for each grid cell (see [Climate data](#climate-data)).
 
 ## Landscapes panel
