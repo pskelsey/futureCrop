@@ -20,16 +20,6 @@
   * [Climate and crop panel](#climate-and-crop-panel)
   * [Results panel](#results-panel)
   * [Saving projection results](#saving-projection-results)
-    * [How to incorporate cell areas](#how-to-incorporate-cell-areas)
-    * [Select a distribution of locations](#select-a-distribution-of-locations)
-    * [Artificial landscape generation](#artificial-landscape-generation)
-  * [Dispersal panel](#dispersal-panel)
-    * [Choose the type of dispersal](#choose-the-type-of-dispersal)
-    * [Create the dispersal function](#create-the-dispersal-function)
-  * [Plots panel](#plots-panel)
-    * [Making maps](#making-maps)
-    * [Plotting projected values](#plotting-projected-values)
-    * [Saving results](#saving-results)
   
 # Background
 The app provides a very simple front-end to cutting edge machine learning algorithms, and is bundled with gridded crop distribution and climate change data. With a few button clicks you can fit a weather-dependent regression- or classification-tree ensemble to your own data, apply your model across real crop locations, and explore possible future changes under various climate change scenarios. 
