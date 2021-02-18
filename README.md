@@ -16,7 +16,7 @@ The example regression dataset contains a response variable and values for 6 dif
 
 ![regModelTab](https://user-images.githubusercontent.com/32124230/108418695-82494e80-7229-11eb-9fac-f954d1f61b09.PNG)
 
-The model is applied across real barley locations using climate change projection data for summer in 2030-2060. The ensemble of results for each decade reveal that the predicted response variable is expected to increase by 67% in 2060 relative to baseline conditions.
+The model is applied across real barley locations using climate change projection data for summer in each decade spanning 2020-2060. The ensemble of results for each decade reveal that the predicted response variable is expected to increase by 67% in 2060 relative to baseline conditions.
 
 ![regProjectionsTab](https://user-images.githubusercontent.com/32124230/108418731-8aa18980-7229-11eb-9183-85a244fba312.PNG)
 
