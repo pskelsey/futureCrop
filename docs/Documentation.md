@@ -12,7 +12,7 @@
   * [Modelling task](#modelling-task)
   * [Required data format and upload](#required-data-format-and-upload)
   * [Fitting an algorithm](#fitting-an-algorithm)
-  ** [Sampling strategy](#sampling-strategy)
+  * [Sampling strategy](#sampling-strategy)
   * [Reproducible results](#reproducible-results)
   * [Parallel computing](#parallel-computing)
   * [Results table](#results-table)
