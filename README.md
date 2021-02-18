@@ -14,11 +14,11 @@ A desktop app for performing climate change risk assessments in real crop locati
 ## Example
 The example regression dataset included with the app is uploaded. It contains a response variable and values for 6 different weather variables. Regression tree ensembles are trained, tuned and tested using a nested cross validation procedure with Bayesian optimization for tuning of hyperparameters. Parallel computing is selected to speed up execution on multi-core devices. The most accurate predictive algorithm is a Random Forest of 109 regression trees.
 
-![regressionTab1](https://user-images.githubusercontent.com/32124230/108053135-ef4fbf00-7044-11eb-931b-a221c6c8d640.PNG)
+![regModelTab](https://user-images.githubusercontent.com/32124230/108418695-82494e80-7229-11eb-9fac-f954d1f61b09.PNG)
 
 The fitted algorithm is applied across real barley locations using climate change projection data for summer in 2030-2060. The ensemble of results for each decade reveal that the predicted response variable is expected to increase markedly over time.
 
-![regressionTab2](https://user-images.githubusercontent.com/32124230/108000964-183f6800-6fe3-11eb-9286-72b11232524e.PNG)
+![regProjectionsTab](https://user-images.githubusercontent.com/32124230/108418731-8aa18980-7229-11eb-9183-85a244fba312.PNG)
 
 ## Motivation
 This app was developed as a tool to help non-modellers access cutting-edge machine learning algorithms and perform state-of-the-art climate change risk assessments. It provides easy acces to real crop / land-use data from [IACS](https://ec.europa.eu/agriculture/direct-support/iacs_en) and [JACS](https://www.gov.scot/collections/june-scottish-agricultural-census/), and [UKCP18](https://www.metoffice.gov.uk/research/approach/collaboration/ukcp/index) fully coherent climate change data for 12 future climates (emissions scenario RCP8.5) and a range of time-periods and seasons. 
